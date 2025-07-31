@@ -103,6 +103,31 @@ header {
   }
 }
 
+/* =========================
+   DIV TEMPERATURA
+========================= */
+.temperatura {
+  background: white;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.temperatura ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.temperatura li {
+  padding: 5px 80px;
+}
 
 /* =========================
    HERO VIDEO (PORTADA)
