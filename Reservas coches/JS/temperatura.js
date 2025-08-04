@@ -97,7 +97,7 @@ ubicaciones.forEach((ubicacion, index) => {
 
 
 let desplazamiento = 0;
-const velocidad = 0.5; 
+const velocidad = 0.1; 
 
 function moverCarrusel() {
   desplazamiento -= velocidad;

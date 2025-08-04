@@ -111,7 +111,7 @@ header {
   padding: 10px;
   text-align: center;
   font-family: 'Lato', sans-serif;
-  font-weight: 14px;
+  font-weight: normal;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
@@ -131,6 +131,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 2px;
+   font-size: 11px;
 }
 
 .temperatura li img {
@@ -140,7 +141,7 @@ header {
 }
 
 .temperatura li small {
-  font-size: 12px;
+  font-size: 10px;
   color: #555;
   font-weight: normal;
 }
