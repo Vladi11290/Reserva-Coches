@@ -107,13 +107,16 @@ header {
    DIV TEMPERATURA
 ========================= */
 .temperatura {
-  background: white;
+  background: linear-gradient(135deg, #ffeaf1, #ffffff);
+  /* rosa clarito + blanco */
   padding: 10px;
   text-align: center;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 3px solid #d81b60;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+
 }
 
 .temperatura ul {
@@ -131,7 +134,7 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 2px;
-   font-size: 11px;
+  font-size: 11px;
 }
 
 .temperatura li img {
@@ -145,9 +148,11 @@ header {
   color: #555;
   font-weight: normal;
 }
+
 .temperatura li strong {
   white-space: nowrap;
 }
+
 /* =========================
    HERO VIDEO (PORTADA)
 ========================= */
